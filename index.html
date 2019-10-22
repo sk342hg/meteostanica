@@ -96,7 +96,8 @@
                 <button class="tablinks" onclick="openPanel(event, 'one')" id="defaultOpen">TEPLOTA</button>
                 <button class="tablinks" onclick="openPanel(event, 'two')" id="defaultOpen">VLHKOSŤ</button>
                 <button class="tablinks" onclick="openPanel(event, 'three')" id="defaultOpen">TLAK</button>
-                <button class="tablinks" onclick="openPanel(event, 'four')" id="defaultOpen">OSTATNÉ</button>
+                <button class="tablinks" onclick="openPanel(event, 'four')" id="defaultOpen">VIZUALIZÁCIA</button>
+                <button class="tablinks" onclick="openPanel(event, 'five')" id="defaultOpen">INFO</button>
                 <a href="https://thingspeak.com/channels/885419">THINGSPEAK</a>
             </div>
             
@@ -151,6 +152,37 @@
                 <div class="info" align="center">
                     <h4>Korelácia teploty, vlhkosti a tlaku</h4>
                     <iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/apps/matlab_visualizations/311299"></iframe>
+                    <h4>Lokácia meteostanice</h4>
+                    <iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/885419/maps/channel_show"></iframe>
+                        
+                </div>
+                
+                <div class="social">
+                    <p align="center">(c) Kirešová Simona, Šimčák Jakub & Zubková Martina</p>
+                        
+                </div>
+                    
+            </div>
+      
+            <div id="five" class="tabcontent">
+                <div class="info" align="center">
+                    <h4>Informácie</h4>
+                    <p align="left">
+                        <b>Meteostanicu vytvorili:</b>
+                        <ul>
+                            <li>Kirešová Simona <i>(simona.kiresova@student.tuke.sk)</i></li>
+                            <li>Šimčák Jakub <i>(jakub.simcak@student.tuke.sk)</i></li>
+                            <li>Zubková Martina <i>(martina.zubkova@student.tuke.sk)</i></li>
+                            </ul>
+                    </p>
+                    <p align="left">
+                        <b>Škola:</b>
+                        <ul>
+                            <li>Katedra teoretickej a priemyselnej elektrotechniky, FEI, TU v Košiciach</li>
+                            <li><i>Predmet:</i> Automatizované systémy merania a systémy riadené Internetom</li>
+                            <li><i>Školský rok:</i> 2019/2020</li>
+                        </ul>
+                </p>
                     <h4>Lokácia meteostanice</h4>
                     <iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/885419/maps/channel_show"></iframe>
                         
