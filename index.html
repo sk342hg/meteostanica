@@ -97,13 +97,13 @@
                 <img src="https://i.ibb.co/pbg6B91/header.png" alt="header" border="0" width="707"/>
                     <div class="tab">
                         <button value="Refresh Page" onClick="window.location.reload();"  style="font-size:23px"><i class="fa fa-refresh"></i></button>
-                        <button class="tablinks" onclick="openPanel(event, 'five')" id="defaultOpen">INFORMÁCIE</button>
                         <button class="tablinks" onclick="openPanel(event, 'one')" id="defaultOpen">TEPLOTA</button>
                         <button class="tablinks" onclick="openPanel(event, 'two')" id="defaultOpen">VLHKOSŤ</button>
                         <button class="tablinks" onclick="openPanel(event, 'three')" id="defaultOpen">TLAK</button>
                         <button class="tablinks" onclick="openPanel(event, 'four')" id="defaultOpen">VIZUALIZÁCIA</button>
                         <a href="https://thingspeak.com/channels/885419">KANÁL</a>
-                
+                        <button class="tablinks" onclick="openPanel(event, 'five')" id="defaultOpen">INFORMÁCIE</button>
+                                        
                     </div>
             
              <div id="one" class="tabcontent">
@@ -157,9 +157,7 @@
                 <div class="info" align="center">
                     <h4>Korelácia teploty, vlhkosti a tlaku</h4>
                     <iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/apps/matlab_visualizations/311299"></iframe>
-                    <h4>Lokácia meteostanice</h4>
-                    <iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/885419/maps/channel_show"></iframe>
-                        
+                    
                 </div>
                 
                 <div class="social">
