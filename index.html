@@ -2,6 +2,8 @@
     <html>
         <head>
             <title>Meteostanica</title>
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
             <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
             <script src="https://static.tumblr.com/iuw14ew/VSQma1786/jquery.style-my-tooltips.js"></script>
             <script>(function($){$(document).ready(function(){$("a[title]").style_my_tooltips({tip_follows_cursor:true,tip_delay_time:90,tip_fade_speed:600,attribute:"title"});});})(jQuery);</script>
@@ -92,13 +94,15 @@
         <body>
         
             <div id="container">
+                <button value="Refresh Page" onClick="window.location.reload();"  style="font-size:23px"><i class="fa fa-refresh"></i></button>
+                <button class="tablinks" onclick="openPanel(event, 'five')" id="defaultOpen">INFORMÁCIE</button>
                 <img src="https://i.ibb.co/pbg6B91/header.png" alt="header" border="0" width="707"/><div class="tab">
                 <button class="tablinks" onclick="openPanel(event, 'one')" id="defaultOpen">TEPLOTA</button>
                 <button class="tablinks" onclick="openPanel(event, 'two')" id="defaultOpen">VLHKOSŤ</button>
                 <button class="tablinks" onclick="openPanel(event, 'three')" id="defaultOpen">TLAK</button>
                 <button class="tablinks" onclick="openPanel(event, 'four')" id="defaultOpen">VIZUALIZÁCIA</button>
-                <button class="tablinks" onclick="openPanel(event, 'five')" id="defaultOpen">INFO</button>
-                <a href="https://thingspeak.com/channels/885419">THINGSPEAK</a>
+                <a href="https://thingspeak.com/channels/885419">KANÁL</a>
+                
             </div>
             
             <div id="one" class="tabcontent">
