@@ -192,7 +192,7 @@
                         <button class="tablinks" onclick="openPanel(event, 'one')" id="defaultOpen">TEPLOTA</button>
                         <button class="tablinks" onclick="openPanel(event, 'two')" id="defaultOpen">VLHKOSŤ</button>
                         <button class="tablinks" onclick="openPanel(event, 'three')" id="defaultOpen">TLAK</button>
-                        <button class="tablinks" onclick="openPanel(event, 'four')" id="defaultOpen">VIZUALIZÁCIA</button>
+                        <button class="tablinks" onclick="openPanel(event, 'four')" id="defaultOpen">KORELÁCIA</button>
                         <a href="https://thingspeak.com/channels/885419">KANÁL</a>
                         <button class="tablinks" onclick="openPanel(event, 'five')" id="defaultOpen">INFORMÁCIE</button>
                                         
@@ -204,7 +204,8 @@
                     <iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/885419/charts/1?bgcolor=%23ffffff&color=%23d62020&days=1&dynamic=true&results=120&title=&nbsp&type=line&xaxis=Dátum&yaxis=Teplota&nbsp[°C]"></iframe>
                     <h4>Aktuálna teplota</h4>
                     <iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/885419/widgets/110970"></iframe>
-
+                    <h4>Variácia nameraných hodnôt teploty za posledných 10 hodín</h4>
+                    <iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/apps/matlab_visualizations/312528"></iframe>
                 </div>
                 <div class="social">
                     <p align="center">(c) Kirešová Simona, Šimčák Jakub & Zubková Martina</p>
@@ -219,7 +220,9 @@
                     <iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/885419/charts/2?bgcolor=%23ffffff&color=%23d62020&days=1&dynamic=true&results=120&title=&nbsp&type=line&xaxis=Dátum&yaxis=Vlhkosť&nbsp%5B%25%5D"></iframe>
                     <h4>Aktuálna vlhkosť</h4>
                     <iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/885419/widgets/110971"></iframe>
-                        
+                    <h4>Variácia nameraných hodnôt vlhkosti za posledných 10 hodín</h4>
+                    <iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/apps/matlab_visualizations/313078"></iframe>
+
                 </div>
                 
                 <div class="social">
@@ -235,7 +238,9 @@
                     <iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/885419/charts/3?bgcolor=%23ffffff&color=%23d62020&days=1&dynamic=true&results=120&title=&nbsp&type=line&xaxis=Dátum&yaxis=Tlak&nbsp[hPa]"></iframe>
                     <h4>Aktuálny tlak</h4>
                     <iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/885419/widgets/110972"></iframe>
-                        
+                    <h4>Variácia nameraných hodnôt tlaku za posledných 10 hodín</h4>
+                    <iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/apps/matlab_visualizations/313079"></iframe>
+
                 </div>
                 
                 <div class="social">
@@ -249,10 +254,7 @@
                 <div class="info" align="center">
                     <h4>Korelácia teploty, vlhkosti a tlaku</h4>
                     <iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/apps/matlab_visualizations/311299"></iframe>
-                 /*   <h4>Porovnanie teploty za posledné 3 dni</h4>
-                    <iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/apps/matlab_visualizations/311711"></iframe>
-                    <h4>Variácia nameraných hodnôt teploty za posledných 10 hodín</h4>
-                    <iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/apps/matlab_visualizations/312528"></iframe>*/
+                    
 
                 </div>
                 
