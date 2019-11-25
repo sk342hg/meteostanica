@@ -190,11 +190,12 @@
                 <img src="https://i.ibb.co/pbg6B91/header.png" alt="header" border="0" width="707"/>
                     <div class="tab">
                         <button value="Refresh Page" onClick="window.location.reload();"  style="font-size:22px"><i class="fa fa-refresh"></i></button>
+                        <button class="tablinks" onclick="openPanel(event, 'six')" id="defaultOpen">METEOSTANICA</button>
                         <button class="tablinks" onclick="openPanel(event, 'one')" id="defaultOpen">TEPLOTA</button>
                         <button class="tablinks" onclick="openPanel(event, 'two')" id="defaultOpen">VLHKOSŤ</button>
                         <button class="tablinks" onclick="openPanel(event, 'three')" id="defaultOpen">TLAK</button>
                         <button class="tablinks" onclick="openPanel(event, 'four')" id="defaultOpen">KORELÁCIA</button>
-                        <a href="https://thingspeak.com/channels/885419">KANÁL</a>
+                        
                         <button class="tablinks" onclick="openPanel(event, 'five')" id="defaultOpen">INFORMÁCIE</button>
                                         
                     </div>
@@ -291,6 +292,35 @@
                 </div>
                     
             </div>
+                
+                
+                <div id="six" class="tabcontent">
+                <div class="info" align="center">
+                     <h2>Meteostanica</h2>
+                    <p align="left">
+                        <b>Kanály:</b>
+                        <ul>
+                            <li align="left">Kanál č. 1: <a href = "https://thingspeak.com/channels/885419"><b>Meteostanica</b></a> - slúži pre ukladanie nameraných hodnôt a MATLAB vizualizáciu.</li>
+                            <li align="left">Kanál č. 2: <a href = "https://thingspeak.com/channels/921317"><b>Meteostanica Analysis</b></a> - slúži pre MATLAB analýzu.</li>
+                            <li align="left">Zubková Martina <a href = "mailto: martina.zubkova@student.tuke.sk">(e-mail)</a></li>
+                            </ul>
+                    </p>
+                     <h4>Aktuálny status meteostanice</h2> 
+                    <iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/921317/widgets/123310"></iframe>
+                    <p align="left">Meteostanica je spustená, ak "lampa" svieti na zeleno.
+                        
+                    <h4>Lokácia meteostanice</h2>
+                    <iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/885419/maps/channel_show"></iframe>
+                    
+
+                </div>
+                
+                <div class="social">
+                    <p align="center">(c) Kirešová Simona, Šimčák Jakub & Zubková Martina</p>
+                        
+                </div>
+                    
+            </div>
       
             <div id="five" class="tabcontent">
                 <div class="info" align="center">
@@ -311,10 +341,7 @@
                             <li align="left"><b>Školský rok:</b> 2019/2020</li>
                         </ul>
                 </p>
-                    <h2>Lokácia meteostanice</h2>
-                    <iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/885419/maps/channel_show"></iframe>
-                    <h2>Aktuálny status meteostanice</h2> 
-                    <iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/921317/widgets/123310"></iframe>
+                    
 
                 </div>
                 
